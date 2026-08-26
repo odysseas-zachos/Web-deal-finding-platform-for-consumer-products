@@ -104,8 +104,8 @@ The database schema comprises **10 interconnected relational tables** ensuring h
 
 Developed as part of the **Web Programming & Systems** course at the **Department of Computer Engineering and Informatics (CEID), University of Patras**.
 
-* **Odysseus Zachos (Οδυσσέας Ζάχος)** - *Database Architecture, SQL Triggers/Events, Geospatial Leaflet Engine, RESTful PHP API*
-* **Vlasios Panagiotis Panagiotou** - *Frontend Layout & UX, Responsive UI Components, User Profile Engine*
-* **Konstantinos Paraskevopoulos** - *Admin Dashboard Analytics, Chart.js Integration, Data Ingestion Pipeline*
+* **Odysseus Zachos (Οδυσσέας Ζάχος)** 
+* **Vlasios Panagiotis Panagiotou** 
+* **Konstantinos Paraskevopoulos** 
 
 ---
