@@ -1,3 +1,14 @@
+# Crowdsourced Supermarket Deal & Pricing Platform 🛒📌
+
+A full-stack, geospatial crowdsourced web application designed to help users locate, verify, and share real-time supermarket offers and discounts based on geographic proximity. Developed using modern web techniques with a dynamic JavaScript frontend and a RESTful PHP JSON API backend.
+
+---
+
+## 🚀 Key Features
+
+### 👤 User Capabilities
+- **Interactive Geospatial Map:** Dynamic Leaflet.js map displaying local supermarkets and active offers pinned to precise coordinates.
+- **Proximity-Gated Deal Submission:** Strict GPS validation ensuring users are within **50 meters** of a store to post a deal or report stock availability.
 - **Algorithmic Gamification & Token Economy:**
   - Earn points by submitting deals significantly lower than daily/weekly average prices.
   - Community upvoting/downvoting system affecting user scores.
@@ -98,3 +109,7 @@ Developed as part of the **Web Programming & Systems** course at the **Departmen
 * **Konstantinos Paraskevopoulos** - *Admin Dashboard Analytics, Chart.js Integration, Data Ingestion Pipeline*
 
 ---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
