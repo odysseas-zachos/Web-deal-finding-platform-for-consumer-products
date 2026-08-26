@@ -109,7 +109,3 @@ Developed as part of the **Web Programming & Systems** course at the **Departmen
 * **Konstantinos Paraskevopoulos** - *Admin Dashboard Analytics, Chart.js Integration, Data Ingestion Pipeline*
 
 ---
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
