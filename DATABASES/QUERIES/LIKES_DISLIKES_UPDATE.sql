@@ -1,0 +1,11 @@
+UPDATE DISCOUNT 
+SET 
+    DISCOUNT_LIKES = DISCOUNT_LIKES + 1
+WHERE
+    DISCOUNT_ID = 1; 
+-- --------------------------------------------    
+    UPDATE DISCOUNT 
+SET 
+    DISCOUNT_DISLIKES = DISCOUNT_DISLIKES + 1
+WHERE
+    DISCOUNT_ID = 1; 

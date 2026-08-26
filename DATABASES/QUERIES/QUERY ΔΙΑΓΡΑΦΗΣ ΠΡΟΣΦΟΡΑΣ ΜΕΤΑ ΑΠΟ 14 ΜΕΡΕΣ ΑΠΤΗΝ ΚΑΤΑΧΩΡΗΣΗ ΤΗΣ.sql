@@ -1,0 +1,1 @@
+DELETE FROM DISCOUNT where DISCOUNT_DATE < now() - interval 14 DAY;
