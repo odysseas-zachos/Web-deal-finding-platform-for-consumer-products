@@ -66,7 +66,6 @@ The database schema comprises **10 interconnected relational tables** ensuring h
 ## ⚡ Performance Optimization
 
 - **Static Asset Caching:** Configured via `.htaccess` (`max-age=86400, public`) for images, scripts, and stylesheets.
-- **Payload Minimization:** API endpoints respond exclusively with streamlined JSON payloads.
 - **Geospatial Indexing:** Spatial indexing on store coordinates for fast radius calculations.
 
 ---
