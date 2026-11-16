@@ -24,12 +24,10 @@ A full-stack, geospatial crowdsourced web application designed to help users loc
 
 ## 🏗️ Architecture & Tech Stack
 
-The platform follows a decoupled client-server architecture. The PHP backend strictly serves as a **JSON REST API**, while the frontend handles DOM manipulation and UI states dynamically through asynchronous requests (AJAX).
-
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+), Leaflet.js (Maps), Chart.js (Analytics), AJAX/Fetch API
-- **Backend:** PHP (RESTful JSON API Engine, PDO, Session Management)
-- **Database:** MySQL 8.0 (Relational schema, Triggers, Stored Procedures, Scheduled Events)
-- **Geospatial Data:** OpenStreetMap POI API (Overpass/Nominatim integration)
+- **Frontend:** HTML, CSS, JavaScript, Leaflet.js (Maps), Chart.js (Analytics), AJAX
+- **Backend:** PHP
+- **Database:** MySQL (Relational schema, Triggers, Stored Procedures, Scheduled Events)
+- **Geospatial Data:** OpenStreetMap API 
 
 ---
 
@@ -62,33 +60,6 @@ The database schema comprises **10 interconnected relational tables** ensuring h
 - **`discount_likes_gives_tokens` & `discount_dislikes_subtracts_tokens`:** Dynamically updates user scores upon receiving votes.
 - **`update_product_price_after_discount_placement`:** Recalculates historical average prices and assigns point rewards.
 - **Scheduled Cleanup Event:** Automatically deactivates expired offers after 7–14 days of inactivity.
-
----
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/OdysseusZachos/supermarket-deal-platform.git
-   cd supermarket-deal-platform
-   ```
-
-2. **Database Configuration:**
-   - Import the provided SQL schema dump into your MySQL server.
-   - Configure your connection credentials in `config/db.php`:
-     ```php
-     define('DB_HOST', 'localhost');
-     define('DB_USER', 'your_username');
-     define('DB_PASS', 'your_password');
-     define('DB_NAME', 'supermarket_db');
-     ```
-
-3. **Web Server Setup:**
-   - Deploy the project on Apache or Nginx with PHP 8.x support.
-   - Ensure `.htaccess` is enabled for URL rewrite and static asset caching rules.
-
-4. **Access the Application:**
-   - Navigate to `http://localhost/supermarket-deal-platform/` in your browser.
 
 ---
 
